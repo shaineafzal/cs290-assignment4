@@ -8,6 +8,7 @@ ini_set('display_errors', 'On');
 <meta charset="utf-8" />
 <title>multtable.php</title>
 </head>
+<body>
 <?php
 
 $minCand = $_GET["min-multiplicand"];
@@ -76,5 +77,7 @@ echo '<tr>';
 echo '</table>'
 
 ?>
+</body>
+</html>
 
 
