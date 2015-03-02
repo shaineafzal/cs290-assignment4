@@ -54,6 +54,7 @@ else if(is_null($minPlier) == true){
 	echo "Missing parameter min-multiplier! <br>";
 } 
 
+// Build table
 echo '<table border=1>';
 echo '<tr>';
 echo '<th>';
@@ -75,6 +76,7 @@ echo '<tr>';
 }
 
 echo '</table>'
+
 
 ?>
 </body>
